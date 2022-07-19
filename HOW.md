@@ -987,4 +987,4 @@ Abusing Parallelism
 Addendum
 --------
 
-It seems like there are some cases where the HVM underperforms GHC asymptotically due to, it seems, limitations on the optimal evaluation algorithm itself. These are being discussed on [this issue](https://github.com/Kindelia/HVM/issues/38). These cases seems to be at most quadratic (while, in counterpart, GHC can be exponentially slower), and, in most cases, can be avoided with the addition of safe pointers. But regardless, these seem to exist, and it is worth adding this note here until more is known.
+It seems like there are some cases where the HVM underperforms GHC asymptotically due to, it seems, limitations on the optimal evaluation algorithm itself. These are being discussed on [this issue](https://github.com/Kindelia/HVM/issues/60). These cases seems to be at most quadratic (while, in counterpart, GHC can be exponentially slower), and, in most cases, can be avoided with the addition of safe pointers. But regardless, these seem to exist, and it is worth adding this note here until more is known.
